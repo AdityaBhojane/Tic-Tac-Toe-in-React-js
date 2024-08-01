@@ -65,7 +65,7 @@ function App() {
           Tic Tac Toe <br />
           <span className="text-blue-500 text-xl">using ReactJS</span>
         </h1>
-        <div className="container w-[610px] h-[610px] bg-teal-600 border-4 border-gray-300 grid grid-cols-3">
+        <div className="container w-[610px] h-[610px] bg-teal-600 border-4 border-gray-300 grid ">
           {boxElement.map((box, index) => (
             <div
               key={index}
